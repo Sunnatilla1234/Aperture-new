@@ -271,7 +271,8 @@
     padding: 25px 0;
   }
   .info {
-    gap: 12px;
+    gap: 45px;
+    justify-content: center;
   }
   .footer__content-linkes {
     display: flex;
@@ -315,6 +316,9 @@
   .header__content {
     padding-top: 350px;
   }
+  .header__icons{
+    justify-content: center;
+  }
   .section {
     padding-top: 100px;
   }
@@ -324,18 +328,34 @@
   .section__information-text {
     font-size: 18px;
   }
+  .section__top-title{
+    font-size: 13px;
+  }
   .section__top-text {
     padding-top: 10px;
     font-size: 12px;
   }
+  .section__top__box-title{
+    text-align: center;
+  }
   .section__top__box-text {
     padding-bottom: 50px;
+    text-align: center;
+  }
+  .section__top-box__icons{
+    justify-content: center;
   }
   .section__aside-left__title {
     font-size: 12px;
   }
   .section__aside-left__text {
     font-size: 13px;
+  }
+  .section__aside-left__texts {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .section__aside__button-link {
     font-size: 13px;
@@ -361,7 +381,11 @@
   }
   .section__bottom-middle__content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
+
   .section__bottom-text {
     font-size: 18px;
   }
@@ -386,6 +410,9 @@
   .section__bottom__bottom-text {
     font-size: 22px;
   }
+  .section__bottom-middle__icon, .icone{
+    gap: 2px;
+  }
   .footer__content-item {
     display: flex;
     justify-content: center;
@@ -407,6 +434,9 @@
 
   .footer__content-text {
     text-align: center;
+  }
+  .footer__bottom__social-icons{
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 350px) {
@@ -453,7 +483,7 @@
   }
   .section__aside-left__texts {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -503,15 +533,15 @@
   .section__information-text {
     font-size: 16px;
   }
+  .section__top-title{
+    font-size: 10px;
+  }
   .section__top-text {
     padding-top: 8px;
     font-size: 12px;
   }
   .section__top__box-info {
     left: 5px;
-  }
-  .section__top-box__icons {
-    left: 15px;
   }
   .section__aside-left__text {
     font-size: 10px;
